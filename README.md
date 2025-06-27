@@ -7,6 +7,8 @@ HER2-IHC-40x: Patches extracted after splitting WSIs.
 HER2-IHC-40x-WSI: Patches extracted before splitting.
 Each image patch is categorized into one of four HER2 classes (0, 1+, 2+, 3+), based on staining intensity.
  
+![WSI process](https://github.com/user-attachments/assets/fe4b0d90-0ab8-4ae4-9537-b40d7cd0c81e)
+
 
 Dataset Contents
 Dataset Variants
@@ -32,7 +34,8 @@ HER2-IHC-40x-WSI/
 ├── Train/
 └── Test/
  
- 
+ ![4 class images](https://github.com/user-attachments/assets/a3786beb-4b3e-4704-b216-d281c0a737c8)
+
 
 HER2 Class Definitions
  
@@ -51,6 +54,8 @@ Color Histogram Filtering: Removed non-tumor/low-quality patches using HSV filte
 Normalization: Intensity normalization across all patches.
 Patch Extraction: Adaptive 1024×1024 extraction using sliding window method.
  
+![fig3 drawio](https://github.com/user-attachments/assets/58e0fa0c-ef4a-4ff5-a6ea-fa0853ae3678)
+
 
 Usage
 This dataset is suitable for:
